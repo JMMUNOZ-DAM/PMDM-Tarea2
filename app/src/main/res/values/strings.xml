@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">PMDMTarea02</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Juanma Muñoz</string>
+    <string name="nav_header_subtitle">PMDM Tarea 02</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="about"> Acerca de... </string>
+    <string name="menu_home">Inicio</string>
+    <string name="menu_settings">Ajustes</string>
+    <string name="pj_list">Lista de personajes</string>
+    <string name="pj_details">Detalles del personae</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="about_message">Aplicación desarrollada por Juanma Muñoz. Versión 1.0.</string>
+    <string name="settings">Cambia el idioma de la app.</string>
+    <string name="esSwitch">Español</string>
+    <string name="enSwitch">English</string>
+    <string name="welcome">Bienvenidos al mundo de Mario</string>
+    <string name="sel">Se ha seleccionado a </string>
+
+    <!--Variables para personajes-->
+    <!--MARIO-->
+    <string name="marioname">Mario</string>
+    <string name="mariodesc">Mario es el valiente fontanero del Reino Champiñón y uno de los personajes más icónicos de los videojuegos.</string>
+    <string name="marioabi">Salta alto</string>
+    <!--LUIGI-->
+    <string name="luiginame">Luigi</string>
+    <string name="luigidesc">El hermano menor de Mario, Luigi, es tímido pero igualmente heroico.</string>
+    <string name="luigiabi">Salta alto</string>
+    <!--TOAD-->
+    <string name="toadname">Toad</string>
+    <string name="toaddesc">Toad es un simpatico miembro del Reino Champiñón que sirve como asistente leal de la Princesa Peach.</string>
+    <string name="toadabi">Inteligente</string>
+    <!--PEACH-->
+    <string name="peachename">Peach</string>
+    <string name="peachedesc">La Princesa Peach es la noble gobernante del Reino Champiñón. Aunque suele ser el objetivo de los secuestros de Bowser, Peach ha demostrado ser una fuerza a tener en cuenta.</string>
+    <string name="peacheabi">Planea con el vestido</string>
+</resources>

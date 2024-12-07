@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">PMDMTarea02</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Juanma Muñoz</string>
+    <string name="nav_header_subtitle">PMDM Task 02</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="about">About...</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_settings">Settings</string>
+    <string name="pj_list">Characters list</string>
+    <string name="pj_details">Characters Details</string>
+    <string name="aceptar">Accept</string>
+    <string name="about_message">Application developed by Juanma Muñoz. Version 1.0.</string>
+    <string name="settings">Change the app language</string>
+    <string name="esSwitch">Español</string>
+    <string name="enSwitch">English</string>
+    <string name="welcome">Welcome to Mario\s World</string>
+    <string name="sel">has been selected</string>
+    <!-- Character variables -->
+    <!-- MARIO -->
+    <string name="marioname">Mario</string>
+    <string name="mariodesc">Mario is the brave plumber of the Mushroom Kingdom and one of the most iconic video game characters.</string>
+    <string name="marioabi">Jumps high</string>
+    <!-- LUIGI -->
+    <string name="luiginame">Luigi</string>
+    <string name="luigidesc">Mario\'s younger brother, Luigi, is shy but equally heroic.</string>
+    <string name="luigiabi">Jumps high</string>
+    <!-- TOAD -->
+    <string name="toadname">Toad</string>
+    <string name="toaddesc">Toad is a friendly member of the Mushroom Kingdom who serves as Princess Peach\'s loyal assistant.</string>
+    <string name="toadabi">Smart</string>
+    <!-- PEACH -->
+    <string name="peachename">Peach</string>
+    <string name="peachedesc">Princes\'s Peach is the noble ruler of the Mushroom Kingdom. Although she is often the target of Bowser\'s kidnappings, Peach has proven to be a force to be reckoned with.</string>
+    <string name="peacheabi">Glides with her dress</string>
+</resources>
