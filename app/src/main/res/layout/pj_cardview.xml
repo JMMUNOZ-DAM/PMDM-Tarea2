@@ -38,7 +38,8 @@
                     android:layout_height="wrap_content"
                     android:text="Pj name"
                     android:textSize="20sp"
-                    tools:ignore="HardcodedText" />
+                    tools:ignore="HardcodedText"
+                    style="@style/nintendoStyle"/>
 
             </LinearLayout>
         </LinearLayout>
