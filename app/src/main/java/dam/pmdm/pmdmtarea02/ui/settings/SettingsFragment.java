@@ -20,14 +20,14 @@ import java.util.Locale;
 import dam.pmdm.pmdmtarea02.databinding.FragmentSettingsBinding;
 
 /**
- * Fragmento de configuración que permite al usuario cambiar el idioma de la aplicación.
+ * Permite al usuario cambiar el idioma de la aplicación.
  * Incluye un interruptor (Switch) para alternar entre inglés y español.
  */
 public class SettingsFragment extends Fragment {
     // Binding para acceder de manera segura a las vistas del layout
     private FragmentSettingsBinding binding;
 
-    // Interruptor para cambiar el idioma
+    // Switch para cambiar el idioma
     private Switch languageSwitch;
 
     /**
@@ -50,12 +50,12 @@ public class SettingsFragment extends Fragment {
         // Referencia al Switch en el layout
         languageSwitch = binding.languageswitch;
 
-        // Configura el estado inicial del interruptor basado en las preferencias guardadas
+        // Configura el estado inicial del switch basado en las preferencias guardadas
         SharedPreferences preferences = requireActivity().getSharedPreferences("Settings", Context.MODE_PRIVATE);
         boolean isEnglish = preferences.getBoolean("isEnglish", true);
         languageSwitch.setChecked(isEnglish);
 
-        // Listener para los cambios de estado del interruptor para cambiar el idioma
+        // Listener para los cambios de estado del switch para cambiar el idioma
         languageSwitch.setOnCheckedChangeListener((buttonView, isChecked) -> {
             if (!isChecked) {
                 setLocale("es");

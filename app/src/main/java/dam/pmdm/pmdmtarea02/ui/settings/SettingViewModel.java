@@ -6,7 +6,7 @@ import androidx.lifecycle.ViewModel;
 import dam.pmdm.pmdmtarea02.R;
 
 /**
- * ViewModel para el fragmento de configuración (SettingsFragment).
+ * ViewModel para el SettingsFragment.
  * Proporciona un recurso de texto observable para ser mostrado en la interfaz de usuario.
  */
 public class SettingViewModel extends ViewModel {

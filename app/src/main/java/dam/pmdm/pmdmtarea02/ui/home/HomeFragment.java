@@ -25,16 +25,16 @@ import dam.pmdm.pmdmtarea02.databinding.FragmentHomeBinding;
  */
 
 public class HomeFragment extends Fragment {
-    // Binding para acceder a las vistas del layout de forma segura
+    // Binding para acceder a las vistas del layout
     private FragmentHomeBinding binding;
     // Lista de personajes (PJs)
-    private ArrayList<PjData> pjs; // Lista de juegos
+    private ArrayList<PjData> pjs;
     // Adaptador para el RecyclerView
-    private PjRecyclerViewAdapter adapter; // Adaptador del RecyclerView
+    private PjRecyclerViewAdapter adapter;
 
 
     /**
-     * Inflates the layout for this fragment using the FragmentHomeBinding.
+     * Infla el layout para este fragmento usando FragmentHomeBinding.
      *
      * @param inflater           El inflador de layouts.
      * @param container          El contenedor del layout (puede ser null).
@@ -57,7 +57,7 @@ public class HomeFragment extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        // Inicializa la lista de juegos
+        // Inicializa la lista de personajes
         loadPjs();
         // Configura el RecyclerView con un adaptador y un administrador de diseño
         adapter = new PjRecyclerViewAdapter(pjs, getActivity());
@@ -72,31 +72,31 @@ public class HomeFragment extends Fragment {
      */
     private void loadPjs() {
         pjs = new ArrayList<PjData>();
-        // Agrega datos de personajes a la lista
+        // Agrega datos de personajes a la lista sin usar literales
 
         pjs.add(new PjData(
-                R.drawable.mario, // Usar el ID del recurso
+                R.drawable.mario,
                 R.string.marioname,
                 R.string.mariodesc,
                 R.string.marioabi
         ));
 
         pjs.add(new PjData(
-                R.drawable.luigi, // Usar el ID del recurso
+                R.drawable.luigi,
                 R.string.luiginame,
                 R.string.luigidesc,
                 R.string.luigiabi
         ));
 
         pjs.add(new PjData(
-                R.drawable.toad, // Usar el ID del recurso
+                R.drawable.toad,
                 R.string.toadname,
                 R.string.toaddesc,
                 R.string.toadabi
         ));
 
         pjs.add(new PjData(
-                R.drawable.peach, // Usar el ID del recurso
+                R.drawable.peach,
                 R.string.peachename,
                 R.string.peachedesc,
                 R.string.peacheabi

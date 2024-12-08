@@ -20,7 +20,7 @@ import dam.pmdm.pmdmtarea02.databinding.ActivityMainBinding;
 
 /**
  * Activity principal de la aplicación que gestiona la navegación y la configuración del menú.
- * Proporciona la funcionalidad de un cajón de navegación (Navigation Drawer)
+ * Proporciona la funcionalidad de Navigation Drawer
  * y permite la interacción con diferentes fragmentos.
  */
 

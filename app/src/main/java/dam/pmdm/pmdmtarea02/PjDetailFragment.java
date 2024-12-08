@@ -19,7 +19,7 @@ import dam.pmdm.pmdmtarea02.databinding.PjDetailFragmentBinding;
  */
 
 public class PjDetailFragment extends Fragment{
-    // Enlace a los componentes del diseño de este fragmento
+    // Enlace al PjDetailFragment de este fragmento
     private PjDetailFragmentBinding binding;
 
     /**

@@ -33,7 +33,7 @@ public class PjRecyclerViewAdapter extends RecyclerView.Adapter<PjViewHolder>{
      * Crea un nuevo ViewHolder para representar un elemento de la lista.
      *
      * @param parent   El ViewGroup al que se añadirá la nueva vista.
-     * @param viewType El tipo de la vista (no utilizado aquí).
+     * @param viewType El tipo de la vista.
      * @return Una nueva instancia de {@link PjViewHolder}.
      */
         @NonNull

@@ -22,7 +22,7 @@ public class PjViewHolder extends RecyclerView.ViewHolder{
     }
 
     /**
-     * Vincula los datos de un personaje al CardView
+     * Vincula los datos de un personaje al CardView.
      *
      * @param pj Los datos del personaje a mostrar.
      */

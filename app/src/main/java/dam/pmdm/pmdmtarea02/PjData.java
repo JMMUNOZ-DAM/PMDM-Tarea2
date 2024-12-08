@@ -18,6 +18,7 @@ public class PjData {
     /**
      * Constructor de la clase PjData.
      * Inicializa los datos del personaje con los valores proporcionados.
+     * Todos son int porque leerá directamente desde string.xml
      *
      * @param image       ID del recurso de la imagen del personaje.
      * @param name        ID del recurso del nombre del personaje.

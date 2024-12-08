@@ -5,7 +5,7 @@ import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
 /**
- * ViewModel para el fragmento de inicio (HomeFragment).
+ * ViewModel para el HomeFragment.
  * Proporciona datos observables para la interfaz de usuario.
  */
 public class HomeViewModel extends ViewModel {
