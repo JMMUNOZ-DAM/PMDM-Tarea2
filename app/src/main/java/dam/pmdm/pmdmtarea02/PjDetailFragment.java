@@ -64,7 +64,6 @@ public class PjDetailFragment extends Fragment{
                 Toast.makeText(getContext(), getString(name) +" "+ getString(R.string.sel), Toast.LENGTH_SHORT).show();
             }
 
-
             // Asignar los datos a los componentes visuales
             Picasso.get()
                     .load(image) // Cargar la imagen del personaje
@@ -72,7 +71,6 @@ public class PjDetailFragment extends Fragment{
             binding.name.setText(getString(name)); // Asignar el nombre al componente de texto
             binding.description.setText(getString(description)); // Asignar la descripción
             binding.abilities.setText(getString(abilities)); // Asignar las habilidades
-
 
         }
     }
